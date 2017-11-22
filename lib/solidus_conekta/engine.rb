@@ -1,4 +1,4 @@
-module OpenpaySolidus
+module SolidusConekta
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree

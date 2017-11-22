@@ -1,4 +1,4 @@
-OpenpaySolidus
+SolidusConekta
 ==============
 
 Introduction goes here.

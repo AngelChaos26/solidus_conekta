@@ -4,7 +4,7 @@ require 'solidus_conekta/version'
 
 Gem::Specification.new do |s|
   s.name        = 'solidus_conekta'
-  s.version     = OpenpaySolidus::VERSION
+  s.version     = SolidusConekta::VERSION
   s.summary     = 'conekta summary'
   s.description = 'conekta description'
   s.license     = 'BSD-3-Clause'
