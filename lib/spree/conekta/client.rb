@@ -1,6 +1,7 @@
 module Spree::Conekta
   module Client
-    CONEKTA_API = 'https://api.conekta.io/'
+    #CONEKTA_API = 'https://api.conekta.io/'
+    CONEKTA_API = 'https://sandbox-api.openpay.mx/v1/mdcaauf5on1ncwtroibb/'
 
     attr_accessor :auth_token
 
@@ -24,7 +25,7 @@ module Spree::Conekta
 
     def headers
       {
-        'Accept' => ' application/vnd.conekta-v0.3.0+json',
+        #'Accept' => ' application/vnd.conekta-v0.3.0+json',
         'Content-type' => ' application/json'
       }
     end
