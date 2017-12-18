@@ -21,6 +21,13 @@ group :test, :development do
   gem 'capybara-webkit'
   gem 'capybara'
   gem 'vcr'
+  
+  gem 'faraday'
+  gem 'faraday_middleware'
+  gem 'activemerchant'
+  gem 'oj'
+  gem 'typhoeus'
+  gem 'celluloid'
 end
 
 group :test do
